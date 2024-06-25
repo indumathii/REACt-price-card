@@ -1,0 +1,61 @@
+.FREE,.PRO,.PLUS{
+  height:60vh;
+  width:20vw;
+  background-color: rgb(252, 250, 254);
+  margin:0.5em;
+  border-radius: 12px;
+  color:black;
+  display: flex;
+  flex-direction: column;
+}
+.packagename{
+
+  display: flex;
+  justify-content: center;
+  color:grey;
+  font-weight:bolder;
+
+}
+h2{
+  display: flex;
+  justify-content: center;
+  margin-top:-0.75em;
+  font-size:30px;
+}
+
+section{
+height:100vh;
+width:100vw;
+background-color: rgb(72, 112, 220);
+display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+
+}
+body{
+  display:flex;
+  align-items: flex-start;
+  
+}
+.custom-list{
+  list-style-type: none; 
+    padding-left: 0.5em;
+}
+li{
+  margin-left:0.5em;
+}
+.List_display,.List_display2
+{
+  margin-left:0.5em;
+}
+
+.List_display2,.cross-icon
+{
+  opacity: 40%;
+}
+
+.FREE:hover,.PRO:hover,.PLUS:hover{
+  background-color: rgb(232, 170, 25);
+}
