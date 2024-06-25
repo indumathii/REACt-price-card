@@ -1,5 +1,5 @@
 .FREE,.PRO,.PLUS{
-  height:60vh;
+  height:70vh;
   width:20vw;
   background-color: rgb(252, 250, 254);
   margin:0.5em;
@@ -26,7 +26,7 @@ h2{
 section{
 height:100vh;
 width:100vw;
-background-color: rgb(72, 112, 220);
+background-color: rgb(36, 82, 210);
 display:flex;
 flex-direction: row;
 justify-content: center;
@@ -55,7 +55,14 @@ li{
 {
   opacity: 40%;
 }
-
+.Btn{
+  height:10vh;
+  width:15vw;
+  background-color: rgb(36, 82, 210);
+  margin-left:1em;
+  margin-bottom:1em;
+  border-radius: 40px;
+}
 .FREE:hover,.PRO:hover,.PLUS:hover{
   background-color: rgb(232, 170, 25);
 }

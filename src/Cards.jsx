@@ -10,13 +10,14 @@ const Cards = () => {
             isactive: {
                 term1: "Single User",
                 term2: "50 GB Storage",
-                term3: "Unlimited Public Projects"
+                term3: "Unlimited Public Projects",
+                term4: "Community Access"
             },
             nonactive: {
-                term4: "Unlimited Private Objects",
-                term5: "Dedicated Phone Support",
-                term6: "Free Subdomain",
-                term7: "Monthly Status Reports"
+                term5: "Unlimited Private Objects",
+                term6: "Dedicated Phone Support",
+                term7: "Free Subdomain",
+                term8: "Monthly Status Reports"
 
             }
 
@@ -88,7 +89,7 @@ const Cards = () => {
                         
                     }
                         </ul>
-
+                    <button className='Btn'>Buy Now</button>
                     </div>
 
                 )
